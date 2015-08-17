@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>656595C5-9E77-4082-BA61-8A38E48FA6F4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E558AF585E22B81832153AB64F235EC63EC7160E</key>
+		<string>github.com:romyilano/SudoQR-Code-Reader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SudoQR Code Obj-C/SudoQR Code Obj-C.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E558AF585E22B81832153AB64F235EC63EC7160E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:romyilano/SudoQR-Code-Reader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E558AF585E22B81832153AB64F235EC63EC7160E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E558AF585E22B81832153AB64F235EC63EC7160E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SudoQRCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

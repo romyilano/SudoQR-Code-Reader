@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SudoQRViewController.h
 //  SudoQR Code Obj-C
 //
 //  Created by Romy on 8/17/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SudoQRViewController : UIViewController
 
 @end
-

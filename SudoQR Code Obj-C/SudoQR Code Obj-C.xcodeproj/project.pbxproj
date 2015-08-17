@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		EC725BC11B8293EC0030A38D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BC01B8293EC0030A38D /* main.m */; };
 		EC725BC41B8293EC0030A38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BC31B8293EC0030A38D /* AppDelegate.m */; };
-		EC725BC71B8293EC0030A38D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BC61B8293EC0030A38D /* ViewController.m */; };
 		EC725BCA1B8293EC0030A38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC725BC81B8293EC0030A38D /* Main.storyboard */; };
 		EC725BCC1B8293EC0030A38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC725BCB1B8293EC0030A38D /* Images.xcassets */; };
 		EC725BCF1B8293EC0030A38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC725BCD1B8293EC0030A38D /* LaunchScreen.xib */; };
 		EC725BDB1B8293EC0030A38D /* SudoQR_Code_Obj_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BDA1B8293EC0030A38D /* SudoQR_Code_Obj_CTests.m */; };
+		EC725BE71B8299910030A38D /* SudoQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BE51B8299910030A38D /* SudoQRViewController.m */; };
+		EC725BE81B8299910030A38D /* SudoQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC725BE61B8299910030A38D /* SudoQRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,15 @@
 		EC725BC01B8293EC0030A38D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC725BC21B8293EC0030A38D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC725BC31B8293EC0030A38D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC725BC51B8293EC0030A38D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC725BC61B8293EC0030A38D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC725BC91B8293EC0030A38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC725BCB1B8293EC0030A38D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC725BCE1B8293EC0030A38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC725BD41B8293EC0030A38D /* SudoQR Code Obj-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SudoQR Code Obj-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC725BD91B8293EC0030A38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC725BDA1B8293EC0030A38D /* SudoQR_Code_Obj_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoQR_Code_Obj_CTests.m; sourceTree = "<group>"; };
+		EC725BE41B8299910030A38D /* SudoQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudoQRViewController.h; sourceTree = "<group>"; };
+		EC725BE51B8299910030A38D /* SudoQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoQRViewController.m; sourceTree = "<group>"; };
+		EC725BE61B8299910030A38D /* SudoQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SudoQRViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,7 @@
 			children = (
 				EC725BC21B8293EC0030A38D /* AppDelegate.h */,
 				EC725BC31B8293EC0030A38D /* AppDelegate.m */,
-				EC725BC51B8293EC0030A38D /* ViewController.h */,
-				EC725BC61B8293EC0030A38D /* ViewController.m */,
+				EC725BE91B8299960030A38D /* SudoQR ViewController */,
 				EC725BC81B8293EC0030A38D /* Main.storyboard */,
 				EC725BCB1B8293EC0030A38D /* Images.xcassets */,
 				EC725BCD1B8293EC0030A38D /* LaunchScreen.xib */,
@@ -117,6 +118,16 @@
 				EC725BD91B8293EC0030A38D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC725BE91B8299960030A38D /* SudoQR ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC725BE41B8299910030A38D /* SudoQRViewController.h */,
+				EC725BE51B8299910030A38D /* SudoQRViewController.m */,
+				EC725BE61B8299910030A38D /* SudoQRViewController.xib */,
+			);
+			name = "SudoQR ViewController";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			files = (
 				EC725BCA1B8293EC0030A38D /* Main.storyboard in Resources */,
 				EC725BCF1B8293EC0030A38D /* LaunchScreen.xib in Resources */,
+				EC725BE81B8299910030A38D /* SudoQRViewController.xib in Resources */,
 				EC725BCC1B8293EC0030A38D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC725BC71B8293EC0030A38D /* ViewController.m in Sources */,
 				EC725BC41B8293EC0030A38D /* AppDelegate.m in Sources */,
+				EC725BE71B8299910030A38D /* SudoQRViewController.m in Sources */,
 				EC725BC11B8293EC0030A38D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
