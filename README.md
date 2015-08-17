@@ -14,10 +14,13 @@ help people understand the APIs better.
 
 # Style
 
-I'll try to keep this code as small as possible, similar
+
+* I'll try to keep this code as small as possible, similar
 to an npm module.
 
-We'll try to rely as much as possible on 
+* Either make gui in code or use nib files to keep this as modular as possible 
+
+* We'll try to rely as much as possible on 
 native classes by apple and avoid frameworks if possible.
 I don't think this will be a big problem though.
 
