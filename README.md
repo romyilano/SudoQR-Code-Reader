@@ -23,6 +23,8 @@ I don't think this will be a big problem though.
 
 # Reference
 
+* Inventory System at SudoRoom - [wiki](https://sudoroom.org/wiki/Inventory) the one rare case where QR codes are useful. Please! no more jokes about QR Codes 
+
 * AVMetadataMachineReadableCodeObject Class Reference - [apple doc](https://developer.apple.com/library/ios/documentation/AVFoundation/Reference/AVMetadataMachineReadableCodeObject_Class/#//apple_ref/doc/constant_group/Machine_Readable_Object_Types)
 
 # Open Source
@@ -30,3 +32,5 @@ I don't think this will be a big problem though.
 Starting this out in Objective-C but this should
 eventually be moved to Swift since Apple is open sourcing that
 later this year. 
+
+![Sample QR Code](images/OpenSourceInventory.jpg)
