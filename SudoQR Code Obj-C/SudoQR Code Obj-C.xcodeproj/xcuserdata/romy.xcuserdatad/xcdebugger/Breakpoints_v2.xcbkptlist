@@ -15,6 +15,48 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2"
             endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SudoQRViewController isReading]"
+                  moduleName = "SudoQR Code Obj-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romy/Developer/SudoRoom/SudoQRCode/SudoQR%20Code%20Obj-C/SudoQR%20Code%20Obj-C/SudoQRViewController.m"
+                  timestampString = "461549907.27979"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SudoQRViewController setIsReading:]"
+                  moduleName = "SudoQR Code Obj-C"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romy/Developer/SudoRoom/SudoQRCode/SudoQR%20Code%20Obj-C/SudoQR%20Code%20Obj-C/SudoQRViewController.m"
+                  timestampString = "461549907.280153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

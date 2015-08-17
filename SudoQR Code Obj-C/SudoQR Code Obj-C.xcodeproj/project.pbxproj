@@ -15,6 +15,8 @@
 		EC725BDB1B8293EC0030A38D /* SudoQR_Code_Obj_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BDA1B8293EC0030A38D /* SudoQR_Code_Obj_CTests.m */; };
 		EC725BE71B8299910030A38D /* SudoQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC725BE51B8299910030A38D /* SudoQRViewController.m */; };
 		EC725BE81B8299910030A38D /* SudoQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC725BE61B8299910030A38D /* SudoQRViewController.xib */; };
+		ECD53A741B82AB8B00CBFBD8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ECD53A731B82AB8B00CBFBD8 /* README.md */; };
+		ECD53A761B82AE5900CBFBD8 /* beep_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECD53A751B82AE5900CBFBD8 /* beep_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		EC725BE41B8299910030A38D /* SudoQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudoQRViewController.h; sourceTree = "<group>"; };
 		EC725BE51B8299910030A38D /* SudoQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoQRViewController.m; sourceTree = "<group>"; };
 		EC725BE61B8299910030A38D /* SudoQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SudoQRViewController.xib; sourceTree = "<group>"; };
+		ECD53A731B82AB8B00CBFBD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "SudoQR Code Obj-C/README.md"; sourceTree = "<group>"; };
+		ECD53A751B82AE5900CBFBD8 /* beep_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep_sound.mp3; path = ../beep_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		EC725BB21B8293EB0030A38D = {
 			isa = PBXGroup;
 			children = (
+				ECD53A731B82AB8B00CBFBD8 /* README.md */,
 				EC725BBD1B8293EC0030A38D /* SudoQR Code Obj-C */,
 				EC725BD71B8293EC0030A38D /* SudoQR Code Obj-CTests */,
 				EC725BBC1B8293EC0030A38D /* Products */,
@@ -97,6 +102,7 @@
 		EC725BBE1B8293EC0030A38D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECD53A751B82AE5900CBFBD8 /* beep_sound.mp3 */,
 				EC725BBF1B8293EC0030A38D /* Info.plist */,
 				EC725BC01B8293EC0030A38D /* main.m */,
 			);
@@ -214,6 +220,7 @@
 				EC725BCF1B8293EC0030A38D /* LaunchScreen.xib in Resources */,
 				EC725BE81B8299910030A38D /* SudoQRViewController.xib in Resources */,
 				EC725BCC1B8293EC0030A38D /* Images.xcassets in Resources */,
+				ECD53A761B82AE5900CBFBD8 /* beep_sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +240,7 @@
 			files = (
 				EC725BC41B8293EC0030A38D /* AppDelegate.m in Sources */,
 				EC725BE71B8299910030A38D /* SudoQRViewController.m in Sources */,
+				ECD53A741B82AB8B00CBFBD8 /* README.md in Sources */,
 				EC725BC11B8293EC0030A38D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +436,7 @@
 				EC725BE01B8293EC0030A38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC725BE11B8293EC0030A38D /* Build configuration list for PBXNativeTarget "SudoQR Code Obj-CTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +445,7 @@
 				EC725BE31B8293EC0030A38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--SudoQR View Controller-->
@@ -15,9 +16,66 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wky-c5-0b2">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qii-oN-O77"/>
+                                    <barButtonItem title="Start Scanning!" id="Dhh-a7-xiA">
+                                        <connections>
+                                            <action selector="startStopReading:" destination="vXZ-lx-hvc" id="iCd-8c-Sxp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="FbA-P5-dag"/>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oio-5A-6MU">
+                                <rect key="frame" x="0.0" y="20" width="414" height="605"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on Start! to read a QR Code for SudoRoom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEE-5N-5D8">
+                                        <rect key="frame" x="8" y="267" width="398" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sEE-5N-5D8" firstAttribute="leading" secondItem="Oio-5A-6MU" secondAttribute="leading" constant="8" id="6TO-kJ-obW"/>
+                                    <constraint firstAttribute="trailing" secondItem="sEE-5N-5D8" secondAttribute="trailing" constant="8" id="AFW-lg-QCs"/>
+                                    <constraint firstAttribute="centerX" secondItem="sEE-5N-5D8" secondAttribute="centerX" id="Hk5-YG-PHV"/>
+                                    <constraint firstAttribute="centerY" secondItem="sEE-5N-5D8" secondAttribute="centerY" constant="25" id="o2F-2W-XxB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Reader not yet running..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Jf-ID-fsP">
+                                <rect key="frame" x="16" y="649" width="382" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wky-c5-0b2" firstAttribute="top" secondItem="Oio-5A-6MU" secondAttribute="bottom" constant="67" id="0rg-qP-GLi"/>
+                            <constraint firstItem="wky-c5-0b2" firstAttribute="top" secondItem="7Jf-ID-fsP" secondAttribute="bottom" constant="22" id="3hC-Fj-Wgl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wky-c5-0b2" secondAttribute="trailing" constant="-16" id="AWc-J7-9Il"/>
+                            <constraint firstAttribute="centerX" secondItem="Oio-5A-6MU" secondAttribute="centerX" id="Bmb-fC-gbM"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wky-c5-0b2" secondAttribute="bottom" id="D2m-vj-zDC"/>
+                            <constraint firstItem="Oio-5A-6MU" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ECB-IP-Moh"/>
+                            <constraint firstItem="wky-c5-0b2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="HbW-rj-BT1"/>
+                            <constraint firstItem="Oio-5A-6MU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="ODb-U5-uuo"/>
+                            <constraint firstItem="Oio-5A-6MU" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="kuF-OF-nhx"/>
+                            <constraint firstItem="7Jf-ID-fsP" firstAttribute="top" secondItem="Oio-5A-6MU" secondAttribute="bottom" constant="24" id="srz-NJ-v4e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oio-5A-6MU" secondAttribute="trailing" constant="-16" id="ylh-Rd-cHF"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="innerLabel" destination="sEE-5N-5D8" id="ugc-rP-CZG"/>
+                        <outlet property="labelStatus" destination="7Jf-ID-fsP" id="VAs-CE-wJO"/>
+                        <outlet property="scanningBarButtonItem" destination="Dhh-a7-xiA" id="u5r-Gw-CAn"/>
+                        <outlet property="viewPreview" destination="Oio-5A-6MU" id="iQ9-pQ-vlu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
