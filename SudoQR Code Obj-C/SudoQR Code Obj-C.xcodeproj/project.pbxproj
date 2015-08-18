@@ -245,6 +245,7 @@
 				TargetAttributes = {
 					EC725BBA1B8293EB0030A38D = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 6K559Y986U;
 					};
 					EC725BD31B8293EC0030A38D = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -464,6 +465,7 @@
 			baseConfigurationReference = 864F09C4050FA4A7C8C12679 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SudoQR Code Obj-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.$(PRODUCT_NAME:rfc1034identifier)";
@@ -476,6 +478,7 @@
 			baseConfigurationReference = 94D0E5DB33E63DE934EF24CD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SudoQR Code Obj-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.snowyla.$(PRODUCT_NAME:rfc1034identifier)";
