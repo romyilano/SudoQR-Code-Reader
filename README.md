@@ -1,19 +1,22 @@
 
 # SudoQRCode
 
+![beginningFlow](images/beginningFlow.png)
+
 # Goal
 
-Easily reusable code like an npm module that can be used when
+* Easily reusable code like an npm module that can be used when
 we want to create an open-source iOS/iPad app to help with for example
 the ongoing inventory system or training new members with tools or
 maintenance, etc.
 
-Sure, there are "freemium" and other open source QR code readers out
+* Eventually rolled into SudoCare for people to train / learn / help maintain stuff and assist in membership trial periods 
+
+* Sure, there are "freemium" and other open source QR code readers out
 there but we are hackers, and we want our own. Plus this will
 help people understand the APIs better.
 
 # Style
-
 
 * I'll try to keep this code as small as possible, similar
 to an npm module.

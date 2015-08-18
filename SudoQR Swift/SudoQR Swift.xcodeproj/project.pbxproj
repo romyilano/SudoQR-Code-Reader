@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		EC6A5FE51B82B48E00414F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A5FE41B82B48E00414F83 /* AppDelegate.swift */; };
 		EC6A5FE71B82B48E00414F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A5FE61B82B48E00414F83 /* ViewController.swift */; };
-		EC6A5FEA1B82B48E00414F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6A5FE81B82B48E00414F83 /* Main.storyboard */; };
 		EC6A5FEC1B82B48E00414F83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6A5FEB1B82B48E00414F83 /* Images.xcassets */; };
 		EC6A5FEF1B82B48E00414F83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6A5FED1B82B48E00414F83 /* LaunchScreen.xib */; };
 		EC6A5FFB1B82B48E00414F83 /* SudoQR_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A5FFA1B82B48E00414F83 /* SudoQR_SwiftTests.swift */; };
+		EC6A60061B82B5E400414F83 /* SudoQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A60041B82B5E400414F83 /* SudoQRViewController.swift */; };
+		EC6A60071B82B5E400414F83 /* SudoQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6A60051B82B5E400414F83 /* SudoQRViewController.xib */; };
+		ECC7A2A21B82CCCB00213F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7A2A11B82CCCB00213F06 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +32,14 @@
 		EC6A5FE31B82B48E00414F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6A5FE41B82B48E00414F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6A5FE61B82B48E00414F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC6A5FE91B82B48E00414F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC6A5FEB1B82B48E00414F83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC6A5FEE1B82B48E00414F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC6A5FF41B82B48E00414F83 /* SudoQR SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SudoQR SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6A5FF91B82B48E00414F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6A5FFA1B82B48E00414F83 /* SudoQR_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoQR_SwiftTests.swift; sourceTree = "<group>"; };
+		EC6A60041B82B5E400414F83 /* SudoQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoQRViewController.swift; sourceTree = "<group>"; };
+		EC6A60051B82B5E400414F83 /* SudoQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SudoQRViewController.xib; sourceTree = "<group>"; };
+		ECC7A2A11B82CCCB00213F06 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 			children = (
 				EC6A5FE41B82B48E00414F83 /* AppDelegate.swift */,
 				EC6A5FE61B82B48E00414F83 /* ViewController.swift */,
-				EC6A5FE81B82B48E00414F83 /* Main.storyboard */,
+				EC6A60041B82B5E400414F83 /* SudoQRViewController.swift */,
+				EC6A60051B82B5E400414F83 /* SudoQRViewController.xib */,
 				EC6A5FEB1B82B48E00414F83 /* Images.xcassets */,
+				ECC7A2A11B82CCCB00213F06 /* Main.storyboard */,
 				EC6A5FED1B82B48E00414F83 /* LaunchScreen.xib */,
 				EC6A5FE21B82B48E00414F83 /* Supporting Files */,
 			);
@@ -192,9 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6A5FEA1B82B48E00414F83 /* Main.storyboard in Resources */,
 				EC6A5FEF1B82B48E00414F83 /* LaunchScreen.xib in Resources */,
+				EC6A60071B82B5E400414F83 /* SudoQRViewController.xib in Resources */,
 				EC6A5FEC1B82B48E00414F83 /* Images.xcassets in Resources */,
+				ECC7A2A21B82CCCB00213F06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6A5FE71B82B48E00414F83 /* ViewController.swift in Sources */,
+				EC6A60061B82B5E400414F83 /* SudoQRViewController.swift in Sources */,
 				EC6A5FE51B82B48E00414F83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC6A5FE81B82B48E00414F83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC6A5FE91B82B48E00414F83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC6A5FED1B82B48E00414F83 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +409,7 @@
 				EC6A60001B82B48E00414F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC6A60011B82B48E00414F83 /* Build configuration list for PBXNativeTarget "SudoQR SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				EC6A60031B82B48E00414F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

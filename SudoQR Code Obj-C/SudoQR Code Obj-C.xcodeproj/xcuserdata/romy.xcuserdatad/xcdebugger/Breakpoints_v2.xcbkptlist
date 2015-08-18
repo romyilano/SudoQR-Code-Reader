@@ -24,12 +24,12 @@
                   moduleName = "SudoQR Code Obj-C"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/romy/Developer/SudoRoom/SudoQRCode/SudoQR%20Code%20Obj-C/SudoQR%20Code%20Obj-C/SudoQRViewController.m"
-                  timestampString = "461549961.009215"
+                  timestampString = "461578001.636471"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "12">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "20">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -39,12 +39,12 @@
                   moduleName = "SudoQR Code Obj-C"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/romy/Developer/SudoRoom/SudoQRCode/SudoQR%20Code%20Obj-C/SudoQR%20Code%20Obj-C/SudoQRViewController.m"
-                  timestampString = "461549961.009819"
+                  timestampString = "461578001.636825"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "19">
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "24">
                </Location>
             </Locations>
          </BreakpointContent>

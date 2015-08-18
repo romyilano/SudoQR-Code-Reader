@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>59F326C1-48CA-4091-988F-4016F358031D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SudoQR Swift</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E558AF585E22B81832153AB64F235EC63EC7160E</key>
 		<string>github.com:romyilano/SudoQR-Code-Reader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SudoQR Swift/SudoQR Swift.xcodeproj/project.xcworkspace</string>
+	<string>SudoQR Swift/SudoQR Swift.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E558AF585E22B81832153AB64F235EC63EC7160E</key>
